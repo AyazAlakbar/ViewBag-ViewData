@@ -104,3 +104,4 @@ C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\ViewBagViewData\obj\Debug\netco
 C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\ViewBagViewData\obj\Debug\netcoreapp3.1\ViewBagViewData.pdb
 C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\ViewBagViewData\obj\Debug\netcoreapp3.1\ViewBagViewData.genruntimeconfig.cache
 C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\ViewBagViewData\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\ViewBagViewData\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs

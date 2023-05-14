@@ -6,13 +6,24 @@
 }
 
 <h1>Index</h1>
+@*@foreach (var item in ViewBag.Products)
+{
+ <p>@item.Name</p>   
+}
+*@
+
+
 @*<h2>@ViewData["ProductName"]</h2>*@
 <hr />
 @*<p>@ViewData["Id"]</p>
 <p>@ViewData["Name"]</p>
 <p>@ViewData["Price"]</p>*@
 
-<p>@ViewBag.Id</p>
+@*<p>@ViewBag.Id</p>
 <p>@ViewBag.Name</p>
 <p>@ViewBag.Price</p>
+*@
 
+<p>TempData=>@TempData["Name"]</p>
+<p>ViewData=>@ViewData["Id"]</p>
+<p>ViewBag=>@ViewBag.Price</p>

@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 using ViewBagViewData.Models;
 
 namespace ViewBagViewData.Controllers
@@ -15,12 +16,19 @@ namespace ViewBagViewData.Controllers
                 Name = "Product1",
                 Price = 55
             };
-            //ViewData["ProductName"]= p.Name;
+
+            var p1 = new Product
+            {
+                Id = 2,
+                Name = "Product2",
+                Price = 55
+            };
+            ViewData["ProductName"] = p.Name;
 
 
-            //ViewData["Id"] = "Id";
-            //ViewData["Name"] = "Name";
-            //ViewData["Price"] = "Price";
+            ViewData["Id"] = "Id";
+            ViewData["Name"] = "Name";
+            ViewData["Price"] = "Price";
 
             //ViewBag
 
@@ -28,6 +36,21 @@ namespace ViewBagViewData.Controllers
             ViewBag.Name = "Name";
             ViewBag.Price = 25;
 
+
+            var productList = new List<Product>();
+            productList.Add(p);
+            productList.Add(p1);
+            ViewBag.Products = productList;
+
+            TempData["Id"] = 2;
+            TempData["Name"] = "Name";
+            TempData["Price"] = 99;
+
+            return View();
+        }
+
+        public IActionResult About()
+        {
             return View();
         }
     }
