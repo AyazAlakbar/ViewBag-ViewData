@@ -11,5 +11,5 @@ namespace SQL_Connection.DAL_data_access_layer_
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Student> Students { get; set; }
-    }
+    }   
 }

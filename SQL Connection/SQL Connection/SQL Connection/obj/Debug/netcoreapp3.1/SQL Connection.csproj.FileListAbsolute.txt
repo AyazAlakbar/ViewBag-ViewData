@@ -120,3 +120,4 @@ C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\SQL Connection\SQL Connection\S
 C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\SQL Connection\SQL Connection\SQL Connection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\SQL Connection\SQL Connection\SQL Connection\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\SQL Connection\SQL Connection\SQL Connection\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\ProBook\Desktop\BackEnd\ViewBagViewData\SQL Connection\SQL Connection\SQL Connection\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
